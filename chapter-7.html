@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domain-Driven Design (DDD) - Software Architecture Guide</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
     <style>
         * {
             margin: 0;
@@ -1199,9 +1200,7 @@ An Entity is a domain object that has a distinct identity that runs through time
 │   • Use entities when value objects would suffice                           │
 │   • Compare entities by attribute values                                    │
 │                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div></div>
-
-<div class="px-2"></div>
+└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div>
 <h3>Entity vs Anemic Model</h3>
 <div class="relative"><pre style="color: rgb(57, 58, 52); font-family: Consolas, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; font-size: 0.9em; line-height: 1.2em; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border: 1px solid rgb(221, 221, 221); background-color: white;"><code style="white-space: pre-wrap; word-break: break-all;"><span>┌─────────────────────────────────────────────────────────────────────────────┐
 </span>│                    RICH ENTITY vs ANEMIC MODEL                               │
@@ -2114,8 +2113,7 @@ A Repository is an abstraction that encapsulates the logic needed to access data
 <h3>7.6.6 Domain Services</h3>
 <p><strong>Definition:</strong><br>
 A Domain Service is a stateless operation that fulfills a domain-specific task but doesn't naturally belong to an Entity or Value Object. It represents a domain concept that is a verb (action) rather than a noun (thing).</p>
-</div>
-<div class="px-2">
+
 <div class="relative"><pre style="color: rgb(57, 58, 52); font-family: Consolas, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; font-size: 0.9em; line-height: 1.2em; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border: 1px solid rgb(221, 221, 221); background-color: white;"><code style="white-space: pre-wrap; word-break: break-all;"><span>┌─────────────────────────────────────────────────────────────────────────────┐
 </span>│                       DOMAIN SERVICES (Continued)                            │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -3132,9 +3130,8 @@ A Factory encapsulates the knowledge needed to create a complex object or aggreg
 │   Cross-feature dependencies│ Easier to extract microservices               │
 │   visible                   │ Changes localized to feature                  │
 │                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div></div>
+└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div>
 
-<div class="px-2"></div>
 <hr>
 <h2>7.10 CQRS with DDD</h2>
 <h3>Command Query Responsibility Segregation</h3>
@@ -4253,9 +4250,8 @@ A Factory encapsulates the knowledge needed to create a complex object or aggreg
 │   they add value. Don't let pattern obsession distract from the             │
 │   primary goal: software that truly models and serves the business.         │
 │                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div></div>
+└─────────────────────────────────────────────────────────────────────────────┘</code></pre></div>
 
-<div class="px-2"></div>
 <h2>Section 7 Complete ✓</h2>
 <hr>
 <h2>Ready for Section 8?</h2>
